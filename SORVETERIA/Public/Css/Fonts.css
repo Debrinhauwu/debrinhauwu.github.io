@@ -1,0 +1,29 @@
+@font-face {
+    font-family: sorvet1;
+    src: url(/Public/Assets/Fonts/Oswald-VariableFont_wght.ttf)
+}
+
+@font-face {
+    font-family: sorvet2;
+    src: url(/Public/Assets/Fonts/242487aa-209a-4dbd-aca2-64a3c73a8946.woff2);
+}
+
+@font-face {
+    font-family: sorvet3;
+    src: url(/Public/Assets/Fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff);
+}
+
+@font-face {
+    font-family: sorvet4;
+    src: url(/Public/Assets/Fonts/5cee8d6e-89ad-4d8c-a0ac-584d316b15ae.woff2);
+}
+
+@font-face {
+    font-family: sorvet5;
+    src: url(/Public/Assets/Fonts/aee74cb3-c913-4b54-9722-6001c92325f2.woff2);
+}
+
+@font-face {
+    font-family: sorvet6;
+    src: url(/Public/Assets/Fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff);
+}

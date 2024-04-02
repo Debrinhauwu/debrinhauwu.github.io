@@ -1,0 +1,219 @@
+body {
+    background-color: #ffffff;
+}
+
+.cabecalho {
+    background-color: #000000;
+    color: #ffffff;
+    font: 400 16px "sorvet3";
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  position: fixed;
+  background-color: #00000000;
+}    
+
+.info > a:hover, nav > a:hover {
+    color: #4e4e4e;
+    transition: 0.3s;
+}
+
+
+.info {
+    display: flex;
+    gap: 35px;
+    position: fixed;
+    top: 75px;
+    left: 5%;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 400 16px "sorvet1";
+    color: #000000;
+}
+
+
+.login > img {
+    width: 25px;
+    margin-right: 10px;
+}
+
+.login {
+    position: fixed;
+    top: 75px;
+    left: 85%;
+}
+
+.container {
+    background-color: #f9db79;
+   background-image: url(/Public/Assets/Img/sorvete.png);
+   background-repeat: no-repeat;
+   background-position: center;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    text-align: center;
+}   
+
+.container5 > h3,.container3 > h3, .subcontainer > h3 {
+    font: 400 32px "sorvet5";
+    color: #ffffff;
+}
+
+.container5 > h2, .container3 > h2, .subcontainer > h2 {
+    font: 400 116px "sorvet5";
+    color: #ffffff;
+}
+
+.botao {
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px 45px 5px 45px;
+    font: 500 16px "sorvet1";
+    color: #ffffff;
+}
+
+.botao:hover {
+    border: #000000;
+    background-color: #000000;
+    transition: 0.3s;
+}
+
+.container > h1 {
+    font: 400 40px "sorvet2";
+    margin-bottom: 300px;
+}
+
+.container2 {
+    background-color: #ffffff;
+    display: flex;
+}
+
+.subcontainer2, .subcontainer3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 55px;
+    gap: 25px;
+}
+
+.subcontainer3 > a, .subcontainer2 > a {
+    color: #000000;
+    border-color: #000000;
+}
+
+.subcontainer3 > h2, .subcontainer2 > h2 {
+    font: 400 42px "sorvet4";
+}
+
+.subcontainer3 > h3, .subcontainer2 > h3 {
+    font: 400 26px "sorvet2";
+}
+
+.subcontainer3 > p, .subcontainer2 > P {
+    font: 400 16px "sorvet1";
+    width: 350px;
+    line-height: 30px;
+}
+
+.container4 > img, .container2 > img {
+    width: 1000px;
+    height: 100%;
+}
+
+.container3 {
+    background-color: #b5e8d5;
+    background-image: url(/Public/Assets/Img/fundomorango.png);
+    background-attachment: fixed;
+    height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container2 a:hover {
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.container4 {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #ffffff;
+}
+
+.container5 {
+    background-color: #b5e8d5;
+    background-image: url(/Public/Assets/Img/listras.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 800px;
+
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.img {
+   margin-top: 200px;
+}
+
+
+.subcontainer4 {
+    font: 400 32px "sorvet4";
+
+}
+
+footer {
+    background-color: #000000;
+    margin-top: 200px;
+    height: 400px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px
+}
+
+.subcard {
+    position: relative;
+}
+
+.subcard > input {
+    padding: 5px;
+}
+
+label {
+    font-family: "sorvet1";
+    position: absolute;
+    color: #000000;
+    left: 0px;
+}
+
+.card1 {
+    line-height: 45px;
+}
+
+.card1 a:hover {
+    border-color: #ffffff;
+    background-color: #181717;
+    transition: 0.3s;
+}
